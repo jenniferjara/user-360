@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*quitar padding al container-fluid*/
+.alt {
+	width:100%;
+	max-width:none;
+	padding:0;}
+/**/
+
+img {
+	width: 100%;
+}
+.text-white {
+	color: #fff;
+}
+.lista {
+	margin-left: 3%;
+}
+.border {
+	border-top: 1px solid #E6E6E6;
+	margin: 0;
+}
+.box {
+	padding: 5%;
+}
+.logo {
+	width: 50%;
+}
+.lg {
+	font-size: 2em;
+}
+.parrafo {
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+.pdd {
+	padding-bottom: 4%;
+}
+
+/*header*/
+.bg-op {
+	background-color: rgba(0, 0, 0, 0.6);	
+}
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: none;
+	padding: 1%;
+}
+.navbar #bs-example-navbar-collapse-1 .list{
+	color: #fff;
+	font-size: 1.5em;
+}
+.navbar #bs-example-navbar-collapse-1 .list:hover {
+	color: #fff;
+	background-color: #286090;
+	border-radius: 5px;
+}
+/*hero*/
+.hero {
+	background-image: url(../image/large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+	background-color: rgba(0,0,0, 0.2);
+}
+.titulo {
+	font-size: 3.5em;
+	padding: 8%;
+	margin-top: 6%;
+	margin-bottom: 9%;
+}
+.banner {
+	background-color: rgba(61,122,209,0.8);
+	margin: 0;
+	padding: 3%;
+}
+.sec-bt {
+	padding: 2% 3%;
+}
+.boton {
+	background-color: transparent;
+	border: 1px solid #fff;
+	font-size: 1.5em;
+}
+.boton:hover {
+	background-color: #fff;
+	color: #4E7EB8;
+}
+/*seccion uno*/
+.icono{
+	color: #58A5FF;
+	display: inline-block;
+  font-size: 3em;
+  padding: 44px;
+  border-radius: 50%;
+  box-shadow: -2px 3px 1px #E6E6E6;
+}
+/*seccion 2*/
+.small-ico {
+	position: relative;
+	left: 40%;
+	width: 10%;
+}
+/*seccion:3*/
+.tres {
+	padding: 2% 4%;
+}
+.img-tres {
+	background-image: url(../image/sec-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.icons-b {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 550px;
+}
+.icons {
+	display: block;
+	font-size: 2.5em;
+	color: #fff;
+	background-color: #58A5FF;
+	border-radius: 50%;
+	padding: 2%;
+	float: left;
+	position: relative;
+	margin-left: 4%;
+}
+/*footer*/
+footer {
+	background-color: #2A3541;
+}
+.npdd {
+	padding: 0;
+}
+.info {
+	padding: 3%;
+}
+.mail {
+	margin-top: 10px;
+}
+
+/*contacto*/
+.contacto {
+	background-image: url(../image/large.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+
+.formulario {
+	background-color: #fff;
+	width: 100%;
+	padding: 2%;
+}
+label {
+	display: inline-block;
+	width: 20%x;
+	text-align: right;
+}
+input, textarea {
+	width: 60%;
+}
+textarea {
+	height: 5em;
+}
